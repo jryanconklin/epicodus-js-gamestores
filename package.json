@@ -1,0 +1,19 @@
+{
+  "name": "portlandgamestores",
+  "version": "1.0.0",
+  "description": "An Epicodus Project to use the Google Maps API.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jryanconklin/epicodus-js-gamestores.git"
+  },
+  "author": "J. Ryan Conklin and Ryan Vinyard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jryanconklin/epicodus-js-gamestores/issues"
+  },
+  "homepage": "https://github.com/jryanconklin/epicodus-js-gamestores#readme"
+}

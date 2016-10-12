@@ -1,0 +1,17 @@
+{
+  "name": "portlandgamestores",
+  "description": "An Epicodus Project to use the Google Maps API.",
+  "main": "gulpfile.js",
+  "authors": [
+    "J. Ryan Conklin and Ryan Vinyard"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
