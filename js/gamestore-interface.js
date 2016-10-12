@@ -15,7 +15,7 @@ var apiKey = require('./../.env').apiKey;
 
     setTimeout(function() {
       game.initMap();
-
+      game.guardianGames();
 
     }, 1000);
 
