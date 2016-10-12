@@ -15,5 +15,20 @@
   "bugs": {
     "url": "https://github.com/jryanconklin/epicodus-js-gamestores/issues"
   },
-  "homepage": "https://github.com/jryanconklin/epicodus-js-gamestores#readme"
+  "homepage": "https://github.com/jryanconklin/epicodus-js-gamestores#readme",
+  "devDependencies": {
+    "bower-files": "^3.14.1",
+    "browser-sync": "^2.17.3",
+    "browserify": "^13.1.0",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-jshint": "^2.0.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.7.3",
+    "gulp-uglify": "^2.0.0",
+    "gulp-util": "^3.0.7",
+    "jshint": "^2.9.3",
+    "vinyl-source-stream": "^1.1.0"
+  }
 }
