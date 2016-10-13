@@ -5,12 +5,39 @@ html, body {
   padding: 0;
 }
 
+#store-select {
+  margin: 8px;
+}
+
 #map {
-  height: 50vh;
-  width: 50vh;
+  height: 60vh;
+  width: 60vh;
+  display: block;
+  margin: auto;
 }
 
 #mainHeader {
   text-align: center;
   font-size: 36pt;
+}
+
+#subHeader {
+  text-align: center;
+  font-size: 24pt;
+}
+
+#garbanzoBean {
+  text-align: center;
+  font-size: 12pt;
+}
+
+#store-button {
+  border-radius: 24px;
+  margin: 8px;
+  box-shadow: 0px 6px 5px #888888;
+}
+
+#store-button:active {
+  box-shadow: 2px 2px 2px #888888;
+  transform: translateY(4px);
 }

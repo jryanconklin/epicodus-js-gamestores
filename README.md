@@ -1,4 +1,4 @@
-# Weather
+# Portland Game Store Tracker!
 Epicodus - JS - Introduction to JavaScript
 
 ## Features
