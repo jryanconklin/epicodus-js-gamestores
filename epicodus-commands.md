@@ -61,3 +61,6 @@ $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/inst
 $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 $ sudo gem install sass
+
+# Code for .env File
+exports.apiKey = "YOUR-API-KEY";
