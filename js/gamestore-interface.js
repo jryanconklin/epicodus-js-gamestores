@@ -26,6 +26,7 @@ var gameStores = {
 
     //On Click jQuery to Send Marker Request to Guardian Games
     $('#store-button').click(function() {
+      gamestore.removeMarkers();
       var store = $('#store-select option:selected').val();
       gamestore.marker(gameStores[store], gamestore.google);
     });

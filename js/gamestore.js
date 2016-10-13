@@ -3,6 +3,8 @@ function Map() {
  this.google = null;
 }
 
+var gmarkers = [];
+
 var gameStores = {
   guardianGames: { lat: 45.5154, lng: -122.6621 },
   timeVaultGames: { lat: 45.5156, lng: -122.6813 },
@@ -317,7 +319,14 @@ Map.prototype.marker = function(request, map) {
     position: request,
     map: map
   });
+  gmarkers.push(marker);
 };
+
+Map.prototype.removeMarkers = function() {
+  for(var i = 0; i<gmarkers.length; i++){
+    gmarkers[i].setMap(null);
+  }
+}
 
 
 exports.mapModule = Map;
