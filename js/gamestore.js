@@ -309,11 +309,6 @@ Map.prototype.mapSearch = function(query) {
   return request;
 };
 
-// Map.prototype.markerWithPlace = function(placeId, map) {
-//   var marker = new
-// };
-
-
 Map.prototype.marker = function(request, map) {
   var marker = new google.maps.Marker({
     position: request,
@@ -327,6 +322,5 @@ Map.prototype.removeMarkers = function() {
     gmarkers[i].setMap(null);
   }
 }
-
 
 exports.mapModule = Map;

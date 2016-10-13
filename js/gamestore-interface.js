@@ -30,8 +30,5 @@ var gameStores = {
       var store = $('#store-select option:selected').val();
       gamestore.marker(gameStores[store], gamestore.google);
     });
-
-
-
   // End Document Ready
   });
