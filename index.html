@@ -11,14 +11,25 @@
   </head>
   <body>
   <div class="container">
-    <h1>It's game store time</h1>
-    <h2>Hey piasanos, you want to see some game stores?</h2>
+    <h1 id="mainHeader">It's game store time</h1>
+    <h2 id="subHeader">Hey piasanos, you want to see some game stores?</h2>
     <p>Check out the map below to see some of the best game stores in all of Portland, my little garbanzo bean!</p>
     <br>
 
     <div id="map"></div>
+    <form>
+      <div class="form-group">
+        <label for="storeSelect">Select list:</label>
+        <select id="store-select" class="form-control">
+          <option value="guardianGames">Guardian Games</option>
+          <option value="redCastleGames">Red Castle Games</option>
+          <option value="timeVaultGames">Time Vault Games</option>
+        </select>
+        <button type="button" id="store-button">Find my store!</button>
+      </div>
+    </form>
+
+
   </div>
-
-
   </body>
 </html>
