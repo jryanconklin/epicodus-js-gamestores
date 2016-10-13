@@ -1,6 +1,12 @@
 var Map = require('./../js/gamestore.js').mapModule;
 var apiKey = require('./../.env').apiKey;
 
+var gameStores = {
+  guardianGames: { lat: 45.5154, lng: -122.6621 },
+  timeVaultGames: { lat: 45.5156, lng: -122.6813 },
+  redCastleGames: { lat: 45.4894, lng: -122.5968  }
+};
+
 // Assemble Script for Header
   $(document).ready(function() {
     var apiScript = document.createElement('script');
@@ -21,7 +27,6 @@ var apiKey = require('./../.env').apiKey;
     //On Click jQuery to Send Marker Request to Guardian Games
     $('#store-button').click(function() {
       var store = $('#store-select option:selected').val();
-      console.log(gameStores[store]);
       gamestore.marker(gameStores[store], gamestore.google);
     });
 

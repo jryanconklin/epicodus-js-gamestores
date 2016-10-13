@@ -3,6 +3,9 @@ html, body {
   width: 100%;
   margin: 0;
   padding: 0;
+  background-image: url("http://www.ggportland.com/wp-content/uploads/2014/08/ErinBerzelPhotography_5864.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #store-select {
@@ -19,16 +22,19 @@ html, body {
 #mainHeader {
   text-align: center;
   font-size: 36pt;
+  color: white;
 }
 
 #subHeader {
   text-align: center;
   font-size: 24pt;
+  color: white;
 }
 
 #garbanzoBean {
   text-align: center;
   font-size: 12pt;
+  color: white;
 }
 
 #store-button {
@@ -40,4 +46,13 @@ html, body {
 #store-button:active {
   box-shadow: 2px 2px 2px #888888;
   transform: translateY(4px);
+}
+
+.well {
+  margin: 14px;
+  background-color: rgba(80, 80, 80, 0.8);
+}
+
+label {
+  color: white;
 }
