@@ -60,4 +60,4 @@
 
 
 ### Code for .env File
-exports.apiKey = "YOUR-API-KEY";
+    exports.apiKey = "YOUR-API-KEY";
