@@ -22,6 +22,7 @@ var gameStores = {
     // Initialize Map after 1 Second Timeout
     setTimeout(function() {
       gamestore.initialize();
+      console.log(gamestore.google);
     }, 1000);
 
     //On Click jQuery to Send Marker Request to Guardian Games
