@@ -11,14 +11,26 @@
   </head>
   <body>
   <div class="container">
-    <h1>It's game store time</h1>
-    <h2>Hey piasanos, you want to see some game stores?</h2>
-    <p>Check out the map below to see some of the best game stores in all of Portland, my little garbanzo bean!</p>
-    <br>
-
-
+    <h1 id="mainHeader">Portland Game Stores</h1>
+    <p id="garbanzoBean">Are you craving the chance to play some games, meet new friends, and generally have a great time? Looking for some new Magic cards, or a new Dungeons and Dragons campaign? Look no further! Portland is home to a number of fantastic stores for all of your game hobbies. Use the store locator below, grab some friends, and get ready for a good time!</p>
+    <hr>
+    <div id="map"></div>
+      <div class="row">
+        <form>
+          <div class="col-sm-2"></div>
+          <div class="form-group col-sm-8 well">
+            <br>
+            <label for="storeSelect">Hey paisanos, pick your store below to see its location!</label>
+            <select id="store-select" class="form-control">
+              <option value="guardianGames">Guardian Games</option>
+              <option value="redCastleGames">Red Castle Games</option>
+              <option value="timeVaultGames">Time Vault Games</option>
+            </select>
+            <button type="button" id="store-button" class="btn btn-info">Find my store!</button>
+          </div>
+          <div class="col-sm-2"></div>
+        </form>
+      </div>
   </div>
-<div id="map"></div>
-
   </body>
 </html>
